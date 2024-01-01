@@ -1,21 +1,20 @@
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  align-items: center; 
+  align-items: center;
+  height: 105px; 
   margin-top: 90px;
   padding: 0 24px;
-  height: 105px;
   background-color: bisque;
 }
 
 .header__menu-list {
   display: flex;
-  align-content: space-around;
   flex-direction: row;
-  gap: 27px;
   justify-content: center;
+  align-content: space-around;
+  gap: 27px;
   list-style-type: circle;
-  /* list-style-type: none; */
 }
 
 .header__menu_list__first_li {
@@ -23,9 +22,9 @@
 }
 
 .header__menu-item {
+  padding-left: 5px;
   font-size: 18px;
   text-underline-offset: 5px;
-  padding-left: 5px;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -45,9 +44,9 @@
 .header__contacts {
   display: flex;
   flex-direction: column;
+  margin-left: 183px;
   font-size: 18px;
   line-height: 1.35;
-  margin-left: 183px;
 }
 
 .header__contacts-link {
