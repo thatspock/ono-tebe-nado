@@ -86,7 +86,53 @@
   position: absolute;
   top: 50%; 
   left: 50%;  
-  z-index:32;
+  z-index: 3;
   color: white; 
   transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.accent-span {
+  display: block;
+  width: 1052px;
+  position: absolute;
+}
+
+.text-left {
+  text-align: left;
+  line-height: 1.15;
+  letter-spacing: 30px;
+  padding-left: 56px;
+}
+
+.text-center {
+  text-align: center;
+  letter-spacing: 28px;
+}
+
+.text-right {
+  text-align: right;
+  letter-spacing: 59px;
+}
+
+.accent-span-letter-no {
+  letter-spacing: 60px;
+}
+
+.accent-span-letter-e {
+  letter-spacing: 30px;
+}
+
+.accent-span-letter-b {
+  letter-spacing: 57px;
+}
+
+.accent-span-letter-ee {
+  letter-spacing: 60px;
+}
+
+.accent-span-letter-ad {
+  letter-spacing: 28px;
 }
