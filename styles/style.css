@@ -136,3 +136,28 @@
 .accent-span-letter-ad {
   letter-spacing: 28px;
 }
+
+.cover__bottom-text {
+  position: absolute;
+  top: 656px;
+  left: 81px;
+  z-index: 4;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.27273;
+  word-spacing: 17px;
+}
+
+.cover__button {
+  position: absolute;
+  top: 644px;
+  left: 781px;
+  z-index: 4;
+  width: 252px;
+  height: 52px;
+  border: solid;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
+}
