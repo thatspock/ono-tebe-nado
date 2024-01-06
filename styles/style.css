@@ -300,7 +300,7 @@
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   height: 97px;
-  padding: 0 58px 89px;
+  margin: 0 58px 89px;
 }
 
 .footer__menu {
